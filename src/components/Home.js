@@ -20,9 +20,9 @@ const handleDelete = (id) => {
 
     return (
         <div className="container-fluid">
-            <hr />
-         <BlogList blogs={blogs} titled="ALL BLOGS" handleDelete={handleDelete} className="mb-5 shadow bg-primary"/>
-         <hr />
+       
+         <BlogList blogs={blogs} titled="ALL BLOGS" handleDelete={handleDelete}/>
+    
         </div>
   
     )
